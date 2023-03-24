@@ -65,11 +65,11 @@ function App() {
   return (
     <div className="todo">
       <div className="title">
-        <div className="pokeball">
-          <img src="Pokeball.png" alt="10px" />
-        </div>
         <div className="lema">
-          <img src="todos.png" alt="10px" />
+          <h1>
+            Aumenta el contador para descubrir <br />
+            el pokemon:
+          </h1>
         </div>
       </div>
       <div className="btn">
@@ -86,7 +86,7 @@ function App() {
         {pokemonQuitadoActual && <img src={pokemonQuitadoActual} />}
       </div>
       <div className="consiguelos">
-        <h1>Consíguelos a todos</h1>
+        <h2>Consíguelos a todos</h2>
       </div>
       <div className="listas">
         <div className="listanoencontrados">
